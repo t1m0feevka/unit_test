@@ -12,6 +12,7 @@ def check_upper(change_word):
     change_word = change_word.upper()
     return change_word
 
+
 def sum(a, b):
     return a+b
 
