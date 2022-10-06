@@ -19,6 +19,9 @@ class TestUnit(unittest.TestCase):
         """test check upper doc"""
         self.assertEqual(unit.check_upper('Привіт'), 'ПРИВІТ')
 
+    def test_sum(self):
+        self.assertEqual(unit.sum(2, 1), 3)
+
 
 if __name__ == '__main__':
     unittest.main()
